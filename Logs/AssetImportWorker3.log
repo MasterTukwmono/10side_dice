@@ -1,0 +1,582 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.46f1 (8e9b8558c41a) revision 9345925'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ja' Physical Memory: 16008 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.46f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/yazyu/OneDrive/ãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—/Unity/UnityProjects/10side_dice
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+54307
+Successfully changed project path to: C:/Users/yazyu/OneDrive/ãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—/Unity/UnityProjects/10side_dice
+C:/Users/yazyu/OneDrive/ãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—/Unity/UnityProjects/10side_dice
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7940]  Target information:
+
+Player connection [7940]  * "[IP] 10.31.186.69 [Port] 0 [Flags] 2 [Guid] 3921305124 [EditorId] 3921305124 [Version] 1048832 [Id] WindowsEditor(7,TukemonoIshi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7940] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7940] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+Refreshing native plugins compatible for Editor in 14.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.46f1 (8e9b8558c41a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/yazyu/OneDrive/ãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—/Unity/UnityProjects/10side_dice/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a0)
+    Vendor:   Intel
+    VRAM:     8004 MB
+    Driver:   32.0.101.5768
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014175 seconds.
+- Loaded All Assemblies, in  0.848 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.667 seconds
+Domain Reload Profiling: 1512ms
+	BeginReloadAssembly (258ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (127ms)
+	LoadAllAssembliesAndSetupDomain (338ms)
+		LoadAssemblies (253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (333ms)
+			TypeCache.Refresh (330ms)
+				TypeCache.ScanAssembly (301ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (668ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (553ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.415 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.335 seconds
+Domain Reload Profiling: 2747ms
+	BeginReloadAssembly (347ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (857ms)
+		LoadAssemblies (623ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (430ms)
+			TypeCache.Refresh (380ms)
+				TypeCache.ScanAssembly (348ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1336ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1017ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (784ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 6.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.5 KB). Loaded Objects now: 3591.
+Memory consumption went from 119.7 MB to 119.7 MB.
+Total: 6.478200 ms (FindLiveObjects: 0.388000 ms CreateObjectMapping: 0.158800 ms MarkObjects: 5.686300 ms  DeleteObjects: 0.242800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 377096.103443 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d4/Textures/2k/Plastic Rough Scratched blue/Dice_d4_Roughness.png
+  artifactKey: Guid(f2fcef5d98378004ab0f5ef0261e534a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d4/Textures/2k/Plastic Rough Scratched blue/Dice_d4_Roughness.png using Guid(f2fcef5d98378004ab0f5ef0261e534a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1158f8ca50a51b124cddda8cd59a04f0') in 0.335127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d4/Textures/512/Plastic Glossy Pure blue/Dice_d4_Metallic.png
+  artifactKey: Guid(6d9331afcc26e364da40ac45315b01d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d4/Textures/512/Plastic Glossy Pure blue/Dice_d4_Metallic.png using Guid(6d9331afcc26e364da40ac45315b01d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2af0be2cfe95774832556bcae2402169') in 0.062790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d4/Textures/512/Plastic Glossy Pure red/Dice_d4_AO.png
+  artifactKey: Guid(558f493996cbc2b42858a02549f75c9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d4/Textures/512/Plastic Glossy Pure red/Dice_d4_AO.png using Guid(558f493996cbc2b42858a02549f75c9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0e493743b2324369299c920ad3329c04') in 0.044972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d4/Textures/512/Plastic Rough Scratched blue/Dice_d4_Height.png
+  artifactKey: Guid(63006222afd5cfd488f541e7a7e1d3fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d4/Textures/512/Plastic Rough Scratched blue/Dice_d4_Height.png using Guid(63006222afd5cfd488f541e7a7e1d3fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '60c4ce95f60e89c078b4b0c125a3b39a') in 0.047964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d20/Textures/512/Plastic Glossy Pure blue/Dice_d20_LP_Metallic.png
+  artifactKey: Guid(dc6eacf5cfdc02b43adf65ada30ef555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d20/Textures/512/Plastic Glossy Pure blue/Dice_d20_LP_Metallic.png using Guid(dc6eacf5cfdc02b43adf65ada30ef555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7cc412c22de497af4439fbe9af80c49e') in 0.073693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d20/Textures/512/Plastic Glossy Pure write/Dice_d20_LP_Normal.png
+  artifactKey: Guid(0492c983b3dd94f4ba78b64df94e27b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d20/Textures/512/Plastic Glossy Pure write/Dice_d20_LP_Normal.png using Guid(0492c983b3dd94f4ba78b64df94e27b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8dcaca4950b864f05425ee1bd50ab794') in 0.047500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Kharnyx/Plates, Bowls & Cups/Prefabs/Bowls/Cylendrical Bowl.prefab
+  artifactKey: Guid(e6a429f5517901746a79b410bfc96195) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kharnyx/Plates, Bowls & Cups/Prefabs/Bowls/Cylendrical Bowl.prefab using Guid(e6a429f5517901746a79b410bfc96195) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8366bf6ab0a1d546c1fb6a7283a3f873') in 0.108285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d12/Textures/512/Plastic Glossy Pure write/Dice_d12_Height.png
+  artifactKey: Guid(d2889d293c87cf44985a2f9242d1d0c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d12/Textures/512/Plastic Glossy Pure write/Dice_d12_Height.png using Guid(d2889d293c87cf44985a2f9242d1d0c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ae19b22931d76f61b384953bfe50af13') in 0.046926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d6/Textures/2k/Plastic Rough Scratched red/Dice_d6_AO.png
+  artifactKey: Guid(c617143d7ab4849429bd86dfa7782aa2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d6/Textures/2k/Plastic Rough Scratched red/Dice_d6_AO.png using Guid(c617143d7ab4849429bd86dfa7782aa2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0d012463bf8d92e393d1c1fed956ee9e') in 0.046067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d6/Textures/2k/Plastic Glossy Pure write/Dice_d6_Roughness.png
+  artifactKey: Guid(2331d5e483ac1274fb75c9a2ec577d91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d6/Textures/2k/Plastic Glossy Pure write/Dice_d6_Roughness.png using Guid(2331d5e483ac1274fb75c9a2ec577d91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '14b851d4702cfd47b0b6cfe148a89682') in 0.053598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d6/Textures/2k/Plastic Rough Scratched blue/Dice_d6_Normal.png
+  artifactKey: Guid(2d8a3503bb73a9647a094d8c27c95b86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d6/Textures/2k/Plastic Rough Scratched blue/Dice_d6_Normal.png using Guid(2d8a3503bb73a9647a094d8c27c95b86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '64d929cbe17251b4b7271477ff95ae55') in 0.054985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d6/Textures/2k/Plastic Rough Scratched red/Dice_d6_Height.png
+  artifactKey: Guid(f059467565258c243a23342b5e0fab1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d6/Textures/2k/Plastic Rough Scratched red/Dice_d6_Height.png using Guid(f059467565258c243a23342b5e0fab1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd3f4546b80c781515e8badf0670fba97') in 0.054563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d6/Textures/2k/Plastic Glossy Pure red/Dice_d6_Metallic.png
+  artifactKey: Guid(093e3a26be4f849438a04730534dc13c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d6/Textures/2k/Plastic Glossy Pure red/Dice_d6_Metallic.png using Guid(093e3a26be4f849438a04730534dc13c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a13b51a83ab8d066ffcf934b1ac516fb') in 0.043445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d4/Textures/512/Plastic Rough Scratched red/Dice_d4_Normal.png
+  artifactKey: Guid(b92838dede6b8dc46ae5b8e3352eb6e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d4/Textures/512/Plastic Rough Scratched red/Dice_d4_Normal.png using Guid(b92838dede6b8dc46ae5b8e3352eb6e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c3b92f2ede80a3a3ef28c31af774d84e') in 0.055191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d6/Textures/512/Plastic Glossy Pure blue/Dice_d6_AO.png
+  artifactKey: Guid(8db5efff84fbabb41b5a612717c837bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d6/Textures/512/Plastic Glossy Pure blue/Dice_d6_AO.png using Guid(8db5efff84fbabb41b5a612717c837bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'fc59edfd460468c24cc888c690fc5f4c') in 0.058985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d6/Textures/512/Plastic Glossy Pure red/Dice_d6_Albedo.png
+  artifactKey: Guid(30789ff810296f84bb7cbffa3ea7ceca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d6/Textures/512/Plastic Glossy Pure red/Dice_d6_Albedo.png using Guid(30789ff810296f84bb7cbffa3ea7ceca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8c386798a42e64456536a919abbaf981') in 0.048730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d6/Textures/512/Plastic Glossy Pure blue/Dice_d6_Height.png
+  artifactKey: Guid(22aeb567e0c2f2f4fb285e1144ca189a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d6/Textures/512/Plastic Glossy Pure blue/Dice_d6_Height.png using Guid(22aeb567e0c2f2f4fb285e1144ca189a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '64c14d16f63d2ab605ee0a9eab291e63') in 0.050482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d12/Textures/2k/Plastic Glossy Pure write/Dice_d12_Normal.png
+  artifactKey: Guid(535ac1d8bdc47864a9c52ae94bd3fd36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d12/Textures/2k/Plastic Glossy Pure write/Dice_d12_Normal.png using Guid(535ac1d8bdc47864a9c52ae94bd3fd36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '24cb78fef23818462223fefdfaa7eed8') in 0.030767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d10/Textures/2k/Plastic Rough Scratched red/Dice_10_Metallic.png
+  artifactKey: Guid(0ca75b6daea955b438e97b4fb4711cf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d10/Textures/2k/Plastic Rough Scratched red/Dice_10_Metallic.png using Guid(0ca75b6daea955b438e97b4fb4711cf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b1b97b29d3ed91fdaf1c6b6d4d6aba4c') in 0.037138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d8/Textures/2k/Plastic Rough Scratched red/Dice_d8_Normal.png
+  artifactKey: Guid(05aa14339600ab94ea713e2ce41c8c14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d8/Textures/2k/Plastic Rough Scratched red/Dice_d8_Normal.png using Guid(05aa14339600ab94ea713e2ce41c8c14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6b048d7174a2000c0b45cd97f32629cc') in 0.041671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d8/Textures/2k/Plastic Rough Scratched blue/Dice_d8_Metallic.png
+  artifactKey: Guid(cdd9a4c822676ef4b8947f493e596072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d8/Textures/2k/Plastic Rough Scratched blue/Dice_d8_Metallic.png using Guid(cdd9a4c822676ef4b8947f493e596072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'bae7812951aa486e26833fe095777bdd') in 0.034043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d6/Textures/512/Plastic Rough Scratched blue/Dice_d6_Metallic.png
+  artifactKey: Guid(1b4a7964b3f36744c8adc44c9327b3e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d6/Textures/512/Plastic Rough Scratched blue/Dice_d6_Metallic.png using Guid(1b4a7964b3f36744c8adc44c9327b3e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c7b1f8fed0e2412a22e3ee536f1979a2') in 0.044905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d8/Textures/2k/Plastic Glossy Pure blue/Dice_d8_Height.png
+  artifactKey: Guid(b11fa097f07de7c4cbcd62e62cc269bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d8/Textures/2k/Plastic Glossy Pure blue/Dice_d8_Height.png using Guid(b11fa097f07de7c4cbcd62e62cc269bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0ce4647a0edcf359719462fdf66f9476') in 0.029305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d6/Textures/512/Plastic Glossy Pure red/Dice_d6_Height.png
+  artifactKey: Guid(2cf54bd0b79b5654c92dd0b2d028d38d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d6/Textures/512/Plastic Glossy Pure red/Dice_d6_Height.png using Guid(2cf54bd0b79b5654c92dd0b2d028d38d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '82ab70d3d871891a68a1d2907df9a9b1') in 0.027280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d8/Textures/2k/Plastic Glossy Pure red/Dice_d8_Height.png
+  artifactKey: Guid(1b9f2f64b9398464d8261646b276cb97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d8/Textures/2k/Plastic Glossy Pure red/Dice_d8_Height.png using Guid(1b9f2f64b9398464d8261646b276cb97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '821ee028bd2eaf6ea204bb5985f0641e') in 0.032335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d6/Textures/512/Plastic Glossy Pure red/Dice_d6_AO.png
+  artifactKey: Guid(19c87be9811b71b4f8ab3dbbf5a4801b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d6/Textures/512/Plastic Glossy Pure red/Dice_d6_AO.png using Guid(19c87be9811b71b4f8ab3dbbf5a4801b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f3cc5c5c0abfbd1905292e11ada84ae8') in 0.025627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d6/Textures/512/Plastic Glossy Pure write/Dice_d6_Normal.png
+  artifactKey: Guid(1eb42f3600fddf44ca86ea9409a3f055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d6/Textures/512/Plastic Glossy Pure write/Dice_d6_Normal.png using Guid(1eb42f3600fddf44ca86ea9409a3f055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2c3805900cc230a45979efa5db5c7631') in 0.045769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d8/Textures/2k/Plastic Glossy Pure write/Dice_d8_Roughness.png
+  artifactKey: Guid(8635a92edfe4ed34ea5690319c631a18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d8/Textures/2k/Plastic Glossy Pure write/Dice_d8_Roughness.png using Guid(8635a92edfe4ed34ea5690319c631a18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '73d6389d5dfc25f5c71053ff3836e426') in 0.044250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d6/Textures/512/Plastic Rough Scratched blue/Dice_d6_Roughness.png
+  artifactKey: Guid(6c9db13c23e12a546a88914ac7370fa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d6/Textures/512/Plastic Rough Scratched blue/Dice_d6_Roughness.png using Guid(6c9db13c23e12a546a88914ac7370fa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9f58c9e86a698b7a2cb51b424ff65ba9') in 0.066939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d6/Textures/512/Plastic Rough Scratched red/Dice_d6_Roughness.png
+  artifactKey: Guid(d034649367bfef249ac337b8d13b53c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d6/Textures/512/Plastic Rough Scratched red/Dice_d6_Roughness.png using Guid(d034649367bfef249ac337b8d13b53c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e51d455e4d7fdc59a6c296c7dac1508b') in 0.045308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d12/Textures/2k/Plastic Glossy Pure red/Dice_d12_Albedo.png
+  artifactKey: Guid(4f07a3b45f595d04d9b3fb5e2703a156) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d12/Textures/2k/Plastic Glossy Pure red/Dice_d12_Albedo.png using Guid(4f07a3b45f595d04d9b3fb5e2703a156) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '36548718caea0faa5c7a367dc8cba79a') in 0.044881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d10/Textures/2k/Plastic Glossy Pure write/Dice_10_Normal.png
+  artifactKey: Guid(46d6cc894fe7e884f9414bef664989fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d10/Textures/2k/Plastic Glossy Pure write/Dice_10_Normal.png using Guid(46d6cc894fe7e884f9414bef664989fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e5fc63c0e018a7da0c457c001c83232b') in 0.049012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d8/Textures/512/Plastic Glossy Pure blue/Dice_d8_Roughness.png
+  artifactKey: Guid(64f90eddfa977e947a9fa9ca63a633a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d8/Textures/512/Plastic Glossy Pure blue/Dice_d8_Roughness.png using Guid(64f90eddfa977e947a9fa9ca63a633a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5bd1cda57174bcd36d15930a8f96fdf8') in 0.064052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d8/Textures/512/Plastic Rough Scratched red/Dice_d8_Normal.png
+  artifactKey: Guid(5eb2989a204baa4458f5c5fd473f58a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d8/Textures/512/Plastic Rough Scratched red/Dice_d8_Normal.png using Guid(5eb2989a204baa4458f5c5fd473f58a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9a433a531ac4f6e04bbf2a1523d24540') in 0.061073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d8/Textures/512/Plastic Glossy Pure blue/Dice_d8_Height.png
+  artifactKey: Guid(23cb7a588af858845b07c5fe2601b3ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d8/Textures/512/Plastic Glossy Pure blue/Dice_d8_Height.png using Guid(23cb7a588af858845b07c5fe2601b3ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4d90dcfb4398e208bf6d82f58cfd5b04') in 0.043990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d8/Textures/512/Plastic Glossy Pure red/Dice_d8_Height.png
+  artifactKey: Guid(88a59ebbaa96eb84da2bc762d1d7b2aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d8/Textures/512/Plastic Glossy Pure red/Dice_d8_Height.png using Guid(88a59ebbaa96eb84da2bc762d1d7b2aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd63cbe7a2d9e08ac0246fda8a9fd6738') in 0.049841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d8/Textures/512/Plastic Rough Scratched blue/Dice_d8_Height.png
+  artifactKey: Guid(4a113b8ccc9b06941a7ff88460812e55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d8/Textures/512/Plastic Rough Scratched blue/Dice_d8_Height.png using Guid(4a113b8ccc9b06941a7ff88460812e55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1feee3446652f613a645c474b8865072') in 0.049114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d6/Textures/2k/Plastic Glossy Pure write/Dice_d6_Height.png
+  artifactKey: Guid(5e9498e82f764864cbcaf2b28423511d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d6/Textures/2k/Plastic Glossy Pure write/Dice_d6_Height.png using Guid(5e9498e82f764864cbcaf2b28423511d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c9ee29c279110e1cd582fbf35267eb09') in 0.048370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d8/Textures/512/Plastic Rough Scratched red/Dice_d8_Height.png
+  artifactKey: Guid(a86aeb9825a8edf4e85bcebd55d338b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d8/Textures/512/Plastic Rough Scratched red/Dice_d8_Height.png using Guid(a86aeb9825a8edf4e85bcebd55d338b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '19cc5e255781a119be1fc06df8af880b') in 0.045939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d4/Textures/512/Plastic Rough Scratched blue/Dice_d4_Normal.png
+  artifactKey: Guid(4a95488da1596994ebd89df9c156cc5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d4/Textures/512/Plastic Rough Scratched blue/Dice_d4_Normal.png using Guid(4a95488da1596994ebd89df9c156cc5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2e8b19b292ab7e1dde535a3f947ff664') in 0.045800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d12/Textures/512/Plastic Glossy Pure red/Dice_d12_Roughness.png
+  artifactKey: Guid(98457c46df1cc0548b2408ee7c300d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d12/Textures/512/Plastic Glossy Pure red/Dice_d12_Roughness.png using Guid(98457c46df1cc0548b2408ee7c300d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e4922fd8a34f27a99ff1dbbc4fb527a7') in 0.046263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d6/Materials/2k/d6 Plastic Rough Scratched red 2k.mat
+  artifactKey: Guid(65b51117992f531488bbe6254e05ca51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d6/Materials/2k/d6 Plastic Rough Scratched red 2k.mat using Guid(65b51117992f531488bbe6254e05ca51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ace6c58666ffd8803b8764d13a6d3cd2') in 0.145593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d12/Textures/512/Plastic Glossy Pure blue/Dice_d12_Normal.png
+  artifactKey: Guid(6e8f9902e4761e4479a32efca68a897e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d12/Textures/512/Plastic Glossy Pure blue/Dice_d12_Normal.png using Guid(6e8f9902e4761e4479a32efca68a897e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '462fb66ac7db6195812b92e5c01171d5') in 0.041713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Collection Dice set for role-playing games/Dice_d8/Textures/512/Plastic Glossy Pure blue/Dice_d8_Normal.png
+  artifactKey: Guid(d4aba8b7b199b4f4fb9e2deb9a9caabb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Collection Dice set for role-playing games/Dice_d8/Textures/512/Plastic Glossy Pure blue/Dice_d8_Normal.png using Guid(d4aba8b7b199b4f4fb9e2deb9a9caabb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ccb26288d6f343a132b85374ec754713') in 0.045974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ƒXƒŒƒbƒh‚ÌI—¹‚Ü‚½‚ÍƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Ì—v‹‚É‚æ‚Á‚ÄAI/O ˆ—‚Í’†~‚³‚ê‚Ü‚µ‚½B
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
