@@ -29,8 +29,11 @@ public class Dice_System : MonoBehaviour
 
     public void Dice()
     {
+        //for (int i = 0; i < 3; i++)
+        {
         transform.position = new Vector3(Random.Range(-10.0f,10.0f) , Random.Range(6.0f,16.0f) , Random.Range(-5.0f,10.0f));
         Instantiate(dices,transform.position,transform.rotation);
+        }
 
         diceTimes ++;
         dice = Random.Range(1,12);
