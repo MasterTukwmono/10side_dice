@@ -52,10 +52,10 @@ public class Dice_System : MonoBehaviour
         rb.AddTorque(torque, ForceMode.Impulse);
     }
 
-
-        diceTimes ++;
-        dice = Random.Range(1,13);
-        diceroleText.text = dice.ToString();
-        role_Jugiment.dice_jugiment();
+    //過去の遺物たち  
+        //diceTimes ++;
+        //dice = Random.Range(1,13);
+        //diceroleText.text = dice.ToString();
+        //role_Jugiment.dice_jugiment();
     }
 }
