@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.6, y: 30.1, z: 8.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4524516463796509679}
@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   number: 0
+  Dice_System: {fileID: 4573148017194180851, guid: c83f1bac407080042a1cba6fa81c0d50, type: 3}
 --- !u!1 &1313316215322274004
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,7 +279,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2f185c6dcd6874594fb6b5df5d30b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice_Number: 0
   Side: 12
   Dice: {fileID: 30669331588071341}
 --- !u!1 &1393983828904373341
@@ -399,7 +399,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2f185c6dcd6874594fb6b5df5d30b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice_Number: 0
   Side: 3
   Dice: {fileID: 30669331588071341}
 --- !u!1 &4095808433356759997
@@ -520,7 +519,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2f185c6dcd6874594fb6b5df5d30b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice_Number: 0
   Side: 11
   Dice: {fileID: 30669331588071341}
 --- !u!1 &4337210164727596086
@@ -641,7 +639,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2f185c6dcd6874594fb6b5df5d30b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice_Number: 0
   Side: 10
   Dice: {fileID: 30669331588071341}
 --- !u!1 &5493862186372532195
@@ -762,7 +759,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2f185c6dcd6874594fb6b5df5d30b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice_Number: 0
   Side: 4
   Dice: {fileID: 30669331588071341}
 --- !u!1 &5550623649434580109
@@ -883,7 +879,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2f185c6dcd6874594fb6b5df5d30b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice_Number: 0
   Side: 7
   Dice: {fileID: 30669331588071341}
 --- !u!1 &7064289764815962671
@@ -1004,7 +999,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2f185c6dcd6874594fb6b5df5d30b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice_Number: 0
   Side: 9
   Dice: {fileID: 30669331588071341}
 --- !u!1 &7193538658778213953
@@ -1125,7 +1119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2f185c6dcd6874594fb6b5df5d30b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice_Number: 0
   Side: 1
   Dice: {fileID: 30669331588071341}
 --- !u!1 &7484544304766409848
@@ -1246,7 +1239,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2f185c6dcd6874594fb6b5df5d30b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice_Number: 0
   Side: 2
   Dice: {fileID: 30669331588071341}
 --- !u!1 &7782171219134724376
@@ -1367,7 +1359,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2f185c6dcd6874594fb6b5df5d30b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice_Number: 0
   Side: 6
   Dice: {fileID: 30669331588071341}
 --- !u!1 &8338715572081988813
@@ -1488,7 +1479,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2f185c6dcd6874594fb6b5df5d30b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice_Number: 0
   Side: 4
   Dice: {fileID: 30669331588071341}
 --- !u!1 &9011743583770485765
@@ -1609,6 +1599,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2f185c6dcd6874594fb6b5df5d30b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dice_Number: 0
   Side: 5
   Dice: {fileID: 30669331588071341}

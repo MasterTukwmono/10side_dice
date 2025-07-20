@@ -17,7 +17,7 @@ public class Role_jugiment : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        dice_System = gameObject.GetComponent<Dice_System>();
+      dice_System = gameObject.GetComponent<Dice_System>();
     }
 
     // Update is called once per frame
@@ -28,11 +28,12 @@ public class Role_jugiment : MonoBehaviour
 
     public void dice_jugiment()
     {
-        if(dice_System.dice == 1)
+        Debug.Log(dice_System.dice);
+        if (dice_System.dice == 1)
         {
-                roleText.text = "ロイヤルホームセンター";
-                Debug.Log("ロイヤルホームセンター");
-                score = score +500;
+            roleText.text = "ロイヤルホームセンター";
+            Debug.Log("ロイヤルホームセンター");
+            score = score + 500;
         }
         else
         {

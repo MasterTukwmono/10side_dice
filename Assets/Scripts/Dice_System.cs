@@ -40,17 +40,18 @@ public class Dice_System : MonoBehaviour
 
     // Rigidbody に初速と回転力を加える
     Rigidbody rb = diceObject.GetComponent<Rigidbody>();
-    if (rb != null)
-    {
-        // 上向き＋ランダム方向に力を加える
-        Vector3 forceDirection = new Vector3(Random.Range(-1f, 1f), 1f, Random.Range(-1f, 1f)).normalized;
-        float forceMagnitude = Random.Range(5f, 10f);
-        rb.AddForce(forceDirection * forceMagnitude, ForceMode.Impulse);
+        if (rb != null)
+        {
+            // 上向き＋ランダム方向に力を加える
+            Vector3 forceDirection = new Vector3(Random.Range(-1f, 1f), 1f, Random.Range(-1f, 1f)).normalized;
+            float forceMagnitude = Random.Range(5f, 10f);
+            rb.AddForce(forceDirection * forceMagnitude, ForceMode.Impulse);
 
-        // ランダムなトルク（回転力）
-        Vector3 torque = new Vector3(Random.Range(-10f, 10f), Random.Range(-10f, 10f), Random.Range(-10f, 10f));
-        rb.AddTorque(torque, ForceMode.Impulse);
-    }
+            // ランダムなトルク（回転力）
+            Vector3 torque = new Vector3(Random.Range(-10f, 10f), Random.Range(-10f, 10f), Random.Range(-10f, 10f));
+            rb.AddTorque(torque, ForceMode.Impulse);
+
+        }
 
     //過去の遺物たち  
         //diceTimes ++;

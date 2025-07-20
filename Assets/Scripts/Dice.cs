@@ -5,11 +5,15 @@ using UnityEngine;
 public class Dice : MonoBehaviour
 {
     public int number;
+    Dice_System DS;
+    public GameObject Dice_System;
     private Rigidbody rb;
     private bool hasStopped = false;
     void Start()
     {
-         rb = GetComponent<Rigidbody>();
+        Dice_System = GameObject.Find("Dice_System");
+        rb = GetComponent<Rigidbody>();
+        DS = Dice_System.GetComponent<Dice_System>();
     }
 
     // Update is called once per frame
@@ -17,7 +21,9 @@ public class Dice : MonoBehaviour
     {
         if (!hasStopped && rb.IsSleeping())
         {
-            Debug.Log(number);
+            //止まった瞬間に一度だけ実行される
+            DS.dice = number;
+            DS.diceTimes++;
             hasStopped = true; // もう実行しないようにする
         }
     }
