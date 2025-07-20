@@ -759,7 +759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2f185c6dcd6874594fb6b5df5d30b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Side: 4
+  Side: 5
   Dice: {fileID: 30669331588071341}
 --- !u!1 &5550623649434580109
 GameObject:
@@ -879,7 +879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2f185c6dcd6874594fb6b5df5d30b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Side: 7
+  Side: 8
   Dice: {fileID: 30669331588071341}
 --- !u!1 &7064289764815962671
 GameObject:
@@ -1359,7 +1359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2f185c6dcd6874594fb6b5df5d30b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Side: 6
+  Side: 7
   Dice: {fileID: 30669331588071341}
 --- !u!1 &8338715572081988813
 GameObject:
@@ -1599,5 +1599,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2f185c6dcd6874594fb6b5df5d30b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Side: 5
+  Side: 6
   Dice: {fileID: 30669331588071341}

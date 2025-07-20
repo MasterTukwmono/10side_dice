@@ -7,6 +7,7 @@ public class Dice_System : MonoBehaviour
 {
     public int dice = 0;
     public int diceTimes = 0;
+    public int[] Roles = new int[3];
     public Text diceroleText;
     public GameObject role_system;
     public GameObject dices;
@@ -17,12 +18,32 @@ public class Dice_System : MonoBehaviour
         role_Jugiment = gameObject.GetComponent<Role_jugiment>();
     }
 
-    // Update is called once per frame
+    private bool hasStopped1 = false;
+    private bool hasStopped2 = false;
+    private bool hasStopped3 = false;
     void Update()
     {
-        if(diceTimes == 3)
+        if (diceTimes == 1 && !hasStopped1)
         {
+            Roles[0] = dice;
+            //Debug.Log(Roles[0]);
+            hasStopped1 = true;
+        }
+
+        if (diceTimes == 2 && !hasStopped2)
+        {
+            Roles[1] = dice;
+            //Debug.Log(Roles[1]);
+            hasStopped2 = true;
+        }
+
+        if (diceTimes == 3 && !hasStopped3)
+        {
+            Roles[2] = dice;
+            role_Jugiment.dice_jugiment();
             role_Jugiment.result();
+            //Debug.Log(Roles[2]);
+            hasStopped3 = true;
         }
         
     }
