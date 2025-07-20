@@ -15,7 +15,7 @@ public class Role_jugiment : MonoBehaviour
     public Text point;
     public Button diceButton;
     public static int score = 0;
-    public static string role;
+    public static int DiceTimes_Time=0;
 
     int a; int b; int c;
     void Start()
@@ -86,7 +86,7 @@ public class Role_jugiment : MonoBehaviour
             score = score + roles[2] * 15;
         }
         else
-        if (a == b && b == c && a == c)
+        if (a == b || b == c || a == c)
         {
             roleText.text = "ペア";
             Debug.Log("ペア");
@@ -104,6 +104,15 @@ public class Role_jugiment : MonoBehaviour
 
     public void result()
     {
-        SceneManager.LoadScene("Result");
+        if (DiceTimes_Time == 2)
+        {
+            SceneManager.LoadScene("Result");
+        }
+        else
+        {
+            DiceTimes_Time++;
+            SceneManager.LoadScene("Main");
+        }
+        
     }
 }
