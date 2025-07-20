@@ -35,7 +35,7 @@ public class Role_jugiment : MonoBehaviour
     int[] fiveTimes = { 5, 10 };
     public void dice_jugiment()
     {
-        Debug.Log(a); Debug.Log(b); Debug.Log(c);
+        Debug.Log(dice_System.Roles[0]); Debug.Log(dice_System.Roles[1]); Debug.Log(dice_System.Roles[2]);
         Array.Sort(dice_System.Roles);
         int[] roles = dice_System.Roles;
         a = dice_System.Roles[0];
@@ -82,7 +82,7 @@ public class Role_jugiment : MonoBehaviour
         if (Prime.Contains(a) && Prime.Contains(b) && Prime.Contains(c))
         {
             roleText.text = "プレミア";
-            Debug.Log("ストレート");
+            Debug.Log("プレミア");
             score = score + roles[2] * 15;
         }
         else
