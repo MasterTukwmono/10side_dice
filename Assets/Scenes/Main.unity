@@ -1152,8 +1152,10 @@ MonoBehaviour:
   diceTimes: 0
   Roles: 000000000000000000000000
   diceroleText: {fileID: 1078618105}
-  role_system: {fileID: 1078618103}
+  role_system: {fileID: 1230168636}
   dices: {fileID: 30669331588071341, guid: 9e2edeee5c085d940a8be4d6cdd8c171, type: 3}
+  dice_Button: {fileID: 707378930}
+  push: 0
 --- !u!1 &4607377277344677968
 GameObject:
   m_ObjectHideFlags: 0
@@ -1209,8 +1211,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 705507995}
   - {fileID: 963194228}
-  - {fileID: 7151543017776129513}
   - {fileID: 1312812194}
   - {fileID: 1026708381}
   - {fileID: 1230400612}
   - {fileID: 1587015600}
+  - {fileID: 7151543017776129513}

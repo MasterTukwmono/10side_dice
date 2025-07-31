@@ -98,8 +98,7 @@ public class Role_jugiment : MonoBehaviour
             Debug.Log("チョンボ");
             score = score + roles[2];
         }
-
-
+        
     }
 
     public void result()

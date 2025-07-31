@@ -11,6 +11,7 @@ public class Dice_System : MonoBehaviour
     public Text diceroleText;
     public GameObject role_system;
     public GameObject dices;
+    public Button dice_Button;
     private Role_jugiment role_Jugiment;
     // Start is called before the first frame update
     void Start()
@@ -45,22 +46,30 @@ public class Dice_System : MonoBehaviour
             //Debug.Log(Roles[2]);
             hasStopped3 = true;
         }
+
+        if (push == 3)
+        {
+            Destroy(dice_Button);
+        }
         
     }
 
+    public int push = 0;
+
     public void Dice()
     {
-    // ランダムな位置
-    Vector3 spawnPosition = new Vector3(Random.Range(-10.0f, 10.0f), Random.Range(6.0f, 16.0f), Random.Range(-5.0f, 10.0f));
-    
-    // ランダムな回転角度
-    Quaternion randomRotation = Random.rotation;
+        push++;
+        // ランダムな位置
+        Vector3 spawnPosition = new Vector3(Random.Range(-10.0f, 10.0f), Random.Range(6.0f, 16.0f), Random.Range(-5.0f, 10.0f));
 
-    // サイコロを生成
-    GameObject diceObject = Instantiate(dices, spawnPosition, randomRotation);
+        // ランダムな回転角度
+        Quaternion randomRotation = Random.rotation;
 
-    // Rigidbody に初速と回転力を加える
-    Rigidbody rb = diceObject.GetComponent<Rigidbody>();
+        // サイコロを生成
+        GameObject diceObject = Instantiate(dices, spawnPosition, randomRotation);
+
+        // Rigidbody に初速と回転力を加える
+        Rigidbody rb = diceObject.GetComponent<Rigidbody>();
         if (rb != null)
         {
             // 上向き＋ランダム方向に力を加える
@@ -74,7 +83,7 @@ public class Dice_System : MonoBehaviour
 
         }
 
-    //過去の遺物たち  
+        //過去の遺物たち  
         //diceTimes ++;
         //dice = Random.Range(1,13);
         //diceroleText.text = dice.ToString();
