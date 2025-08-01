@@ -23,7 +23,7 @@ public class Role_jugiment : MonoBehaviour
         dice_System = gameObject.GetComponent<Dice_System>();
     }
 
-    // Update is called once per frame
+public 
     void Update()
     {
         point.text = score.ToString();

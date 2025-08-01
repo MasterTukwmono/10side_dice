@@ -19,9 +19,10 @@ public class Dice_System : MonoBehaviour
         role_Jugiment = gameObject.GetComponent<Role_jugiment>();
     }
 
-    private bool hasStopped1 = false;
-    private bool hasStopped2 = false;
+    private bool hasStopped1 = false;   
+    private bool hasStopped2 = false;   
     private bool hasStopped3 = false;
+
     void Update()
     {
         if (diceTimes == 1 && !hasStopped1)
