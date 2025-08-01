@@ -2209,9 +2209,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   role_system: {fileID: 4607377277344677968}
-  roleText: {fileID: 0}
+  roleText: 
   point: {fileID: 0}
   diceButton: {fileID: 707378930}
+  First_Role: {fileID: 1202985642}
+  Second_Role: {fileID: 1542384607}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

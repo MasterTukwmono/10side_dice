@@ -11,7 +11,7 @@ public class Role_jugiment : MonoBehaviour
 {
     public GameObject role_system;
     private Dice_System dice_System;
-    public Text roleText;
+    public string roleText;
     public Text point;
     public Button diceButton;
     public static int score = 0;
@@ -23,10 +23,34 @@ public class Role_jugiment : MonoBehaviour
         dice_System = gameObject.GetComponent<Dice_System>();
     }
 
-public 
+    public static string First;  public Text First_Role;
+    public static string Second; public Text Second_Role;
     void Update()
     {
-        point.text = score.ToString();
+        if (DiceTimes_Time == 1)
+        {
+            if (roleText == null)
+            {
+                First = "ダイスを振れ!";
+            }
+            else
+            {
+                First = roleText;
+            }
+        }
+        if (DiceTimes_Time == 2)
+        {
+            if (roleText == null)
+            {
+                First = "ダイスを振れ!";
+            }
+            else
+            {
+                Second = roleText;
+            }
+
+            First_Role.text = First;   Second_Role.text = Second;
+        }
     }
 
     int[] Prime = { 2, 3, 5, 7, 11 };
@@ -44,21 +68,21 @@ public
 
         if (a == 1 && b == 1 && c == 1)
         {
-            roleText.text = "アルティメットストレートフラッシュ";
+            roleText = "アルティメットストレートフラッシュ";
             Debug.Log("アルティメットストレートフラッシュ");
             score = score + 2500;
         }
         else
         if (a == b && b == c && Prime.Contains(a))
         {
-            roleText.text = "プレミヤストレートフラッシュ";
+            roleText = "プレミヤストレートフラッシュ";
             Debug.Log("プレミヤストレートフラッシュ");
             score = score + a * 300;
         }
         else
         if (a == b && b == c)
         {
-            roleText.text = "ストレートフラッシュ";
+            roleText = "ストレートフラッシュ";
             Debug.Log("ストレートフラッシュ");
             score = score + a * 100;
         }
@@ -67,34 +91,34 @@ public
             (fiveTimes.Contains(a) && a == b && fiveTimes.Contains(c)) || (fiveTimes.Contains(a) && a == c && fiveTimes.Contains(b)) || (fiveTimes.Contains(b) && b == c && fiveTimes.Contains(a)) ||
             (threeTimes.Contains(a) && a == b && threeTimes.Contains(c)) || (threeTimes.Contains(a) && a == c && threeTimes.Contains(b)) || (threeTimes.Contains(b) && b == c && threeTimes.Contains(a)))
         {
-            roleText.text = "フルハウス";
+            roleText = "フルハウス";
             Debug.Log("フルハウス");
             score = score + roles[2] * 50;
         }
         else
         if (roles[2] == roles[1] + 1 && roles[1] == roles[0] + 1)
         {
-            roleText.text = "ストレート";
+            roleText = "ストレート";
             Debug.Log("ストレート");
             score = score + roles[2] * 25;
         }
         else
         if (Prime.Contains(a) && Prime.Contains(b) && Prime.Contains(c))
         {
-            roleText.text = "プレミア";
+            roleText = "プレミア";
             Debug.Log("プレミア");
             score = score + roles[2] * 15;
         }
         else
         if (a == b || b == c || a == c)
         {
-            roleText.text = "ペア";
+            roleText = "ペア";
             Debug.Log("ペア");
             score = score + roles[2] * 10;
         }
         else
         {
-            roleText.text = "チョンボ";
+            roleText = "チョンボ";
             Debug.Log("チョンボ");
             score = score + roles[2];
         }
@@ -103,19 +127,20 @@ public
 
     public void result()
     {
+        DiceTimes_Time++;
         StartCoroutine(Go_Next(3f));
     }
 
     IEnumerator Go_Next(float delay)
     {
         yield return new WaitForSeconds(delay);
-        if (DiceTimes_Time == 2)
+        if (DiceTimes_Time == 3)
         {
             SceneManager.LoadScene("Result");
         }
         else
         {
-            DiceTimes_Time++;
+            
             SceneManager.LoadScene("Main");
         }
 
