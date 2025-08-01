@@ -15,12 +15,12 @@ public class Role_jugiment : MonoBehaviour
     public Text point;
     public Button diceButton;
     public static int score = 0;
-    public static int DiceTimes_Time=0;
+    public static int DiceTimes_Time = 0;
 
     int a; int b; int c;
     void Start()
     {
-      dice_System = gameObject.GetComponent<Dice_System>();
+        dice_System = gameObject.GetComponent<Dice_System>();
     }
 
     // Update is called once per frame
@@ -98,11 +98,17 @@ public class Role_jugiment : MonoBehaviour
             Debug.Log("チョンボ");
             score = score + roles[2];
         }
-        
+
     }
 
     public void result()
     {
+        StartCoroutine(Go_Next(3f));
+    }
+
+    IEnumerator Go_Next(float delay)
+    {
+        yield return new WaitForSeconds(delay);
         if (DiceTimes_Time == 2)
         {
             SceneManager.LoadScene("Result");
@@ -112,6 +118,6 @@ public class Role_jugiment : MonoBehaviour
             DiceTimes_Time++;
             SceneManager.LoadScene("Main");
         }
-        
+
     }
 }
