@@ -2446,7 +2446,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4186ebec92e0d5540a46fa121414c3a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  role_system: {fileID: 4607377277344677968}
   roleText: 
   point: {fileID: 352682972}
   diceButton: {fileID: 707378930}

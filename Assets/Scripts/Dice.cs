@@ -10,6 +10,7 @@ public class Dice : MonoBehaviour
     public GameObject Dice_System;
     private Rigidbody rb;
     private bool hasStopped = false;
+    private bool foolStopped = false;
     void Start()
     {
         Dice_System = GameObject.Find("Dice_System");
@@ -29,7 +30,7 @@ public class Dice : MonoBehaviour
             hasStopped = true; // もう実行しないようにする
         }
 
-        if (transform.position.y < -10)
+        if (transform.position.y < -10 && !foolStopped)
         {
             RJ.roleText = "ションベン";
             RJ.score = 0;

@@ -139,7 +139,7 @@ public class Role_jugiment : MonoBehaviour
         {
             roleText = "アルティメットストレートフラッシュ";
             Debug.Log("アルティメットストレートフラッシュ");
-            score = score + 2500;
+            score = score + 5000;
         }
         else
         if (a == b && b == c && Prime.Contains(a))
