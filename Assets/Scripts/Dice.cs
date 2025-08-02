@@ -6,6 +6,7 @@ public class Dice : MonoBehaviour
 {
     public int number;
     Dice_System DS;
+    Role_jugiment RJ;
     public GameObject Dice_System;
     private Rigidbody rb;
     private bool hasStopped = false;
@@ -14,6 +15,7 @@ public class Dice : MonoBehaviour
         Dice_System = GameObject.Find("Dice_System");
         rb = GetComponent<Rigidbody>();
         DS = Dice_System.GetComponent<Dice_System>();
+        RJ = Dice_System.GetComponent<Role_jugiment>();
     }
 
     // Update is called once per frame
@@ -27,6 +29,11 @@ public class Dice : MonoBehaviour
             hasStopped = true; // もう実行しないようにする
         }
 
-        
+        if (transform.position.y < -10)
+        {
+            Debug.Log("ションベン");
+            RJ.roleText = "ションベン";
+            RJ.result();
+        }
     }
 }
