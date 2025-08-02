@@ -31,8 +31,8 @@ public class Dice : MonoBehaviour
 
         if (transform.position.y < -10)
         {
-            Debug.Log("ションベン");
             RJ.roleText = "ションベン";
+            RJ.score = 0;
             RJ.result();
         }
     }

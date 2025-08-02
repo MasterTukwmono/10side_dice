@@ -9,7 +9,6 @@ using System.Linq;
 
 public class Role_jugiment : MonoBehaviour
 {
-    public GameObject role_system;
     private Dice_System dice_System;
     public string roleText;
     public Text point;
@@ -65,7 +64,7 @@ public class Role_jugiment : MonoBehaviour
             }
             First_Role.text = First;
             One_Point.text = one.ToString();
-            
+
 
         }
 
@@ -233,9 +232,10 @@ public class Role_jugiment : MonoBehaviour
         }
         else
         {
-            
+
             SceneManager.LoadScene("Main");
         }
 
     }
+
 }
