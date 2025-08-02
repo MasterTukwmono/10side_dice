@@ -2450,9 +2450,13 @@ MonoBehaviour:
   roleText: 
   point: {fileID: 352682972}
   diceButton: {fileID: 707378930}
+  score: 0
   First_Role: {fileID: 1202985642}
   Second_Role: {fileID: 1542384607}
   Third_Role: {fileID: 1565411856}
+  One_Point: {fileID: 1797825557}
+  Two_Point: {fileID: 396463089}
+  Three_Point: {fileID: 1211188816}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

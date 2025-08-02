@@ -14,19 +14,30 @@ public class Role_jugiment : MonoBehaviour
     public string roleText;
     public Text point;
     public Button diceButton;
-    public static int score = 0;
+    public int score = 0;
+    public static int Final_score = 0;
     public static int DiceTimes_Time = 0;
     public static string Confirmdfirst = "";
     public static string ConfirmdSecond = "";
     public static string ConfirmdThird = "";
 
     int a; int b; int c;
+
+
     public static string First;
     public Text First_Role;
     public static string Second;
     public Text Second_Role;
     public static string Third;
     public Text Third_Role;
+
+    public static int one;
+    public Text One_Point;
+    public static int two;
+    public Text Two_Point;
+    public static int three;
+    public Text Three_Point;
+
     void Start()
     {
         dice_System = gameObject.GetComponent<Dice_System>();
@@ -34,7 +45,7 @@ public class Role_jugiment : MonoBehaviour
 
     void Update()
     {
-        point.text = score.ToString();
+        point.text = Final_score.ToString();
         if (DiceTimes_Time == 1)
         {
 
@@ -50,8 +61,11 @@ public class Role_jugiment : MonoBehaviour
             {
                 First = roleText;
                 Confirmdfirst = roleText;
+                one = score;
             }
             First_Role.text = First;
+            One_Point.text = one.ToString();
+            
 
         }
 
@@ -69,12 +83,15 @@ public class Role_jugiment : MonoBehaviour
             {
                 Second = roleText;
                 ConfirmdSecond = roleText;
+                two = score;
             }
 
             First = !string.IsNullOrEmpty(Confirmdfirst) ? Confirmdfirst : "ダイスを振れ！";
 
             First_Role.text = First;
+            One_Point.text = one.ToString();
             Second_Role.text = Second;
+            Two_Point.text = two.ToString();
         }
 
         if (DiceTimes_Time == 3)
@@ -91,14 +108,18 @@ public class Role_jugiment : MonoBehaviour
             {
                 Third = roleText;
                 ConfirmdThird = roleText;
+                three = score;
             }
 
             First = !string.IsNullOrEmpty(Confirmdfirst) ? Confirmdfirst : "ダイスを振れ！";
             Second = !string.IsNullOrEmpty(ConfirmdSecond) ? ConfirmdSecond : "ダイスを振れ！";
 
             First_Role.text = First;
+            One_Point.text = one.ToString();
             Second_Role.text = Second;
+            Two_Point.text = two.ToString();
             Third_Role.text = Third;
+            Three_Point.text = three.ToString();
         }
     }
 
@@ -171,24 +192,28 @@ public class Role_jugiment : MonoBehaviour
             Debug.Log("チョンボ");
             score = score + roles[2];
         }
+        Final_score = Final_score + score;
 
         if (DiceTimes_Time == 0)
         {
             First = roleText;
             Confirmdfirst = roleText;
             First_Role.text = First;
+            one = score;
         }
         else if (DiceTimes_Time == 1)
         {
             Second = roleText;
             ConfirmdSecond = roleText;
             Second_Role.text = Second;
+            two = score;
         }
         else if (DiceTimes_Time == 2)
         {
             Third = roleText;
             ConfirmdThird = roleText;
             Third_Role.text = Third;
+            three = score;
         }
 
     }
