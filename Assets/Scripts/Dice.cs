@@ -26,5 +26,7 @@ public class Dice : MonoBehaviour
             DS.diceTimes++;
             hasStopped = true; // もう実行しないようにする
         }
+
+        
     }
 }

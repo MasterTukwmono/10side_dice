@@ -8,8 +8,6 @@ public class Dice_System : MonoBehaviour
     public int dice = 0;
     public int diceTimes = 0;
     public int[] Roles = new int[3];
-    public Text diceroleText;
-    public GameObject role_system;
     public GameObject dices;
     public Button dice_Button;
     private Role_jugiment role_Jugiment;
