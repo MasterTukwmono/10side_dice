@@ -217,6 +217,35 @@ public class Role_jugiment : MonoBehaviour
 
     }
 
+    public void Syonben()
+    {
+        roleText = "ションベン";
+        score = 0;
+        Final_score = Final_score + score;
+
+         if (DiceTimes_Time == 0)
+        {
+            First = roleText;
+            Confirmdfirst = roleText;
+            First_Role.text = First;
+            one = score;
+        }
+        else if (DiceTimes_Time == 1)
+        {
+            Second = roleText;
+            ConfirmdSecond = roleText;
+            Second_Role.text = Second;
+            two = score;
+        }
+        else if (DiceTimes_Time == 2)
+        {
+            Third = roleText;
+            ConfirmdThird = roleText;
+            Third_Role.text = Third;
+            three = score;
+        }
+    }
+
     public void result()
     {
         DiceTimes_Time++;

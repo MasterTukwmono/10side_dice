@@ -32,8 +32,9 @@ public class Dice : MonoBehaviour
 
         if (transform.position.y < -10 && !foolStopped)
         {
-            RJ.roleText = "ションベン";
-            RJ.score = 0;
+            foolStopped = true;
+            hasStopped = true;
+            RJ.Syonben();
             RJ.result();
         }
     }
