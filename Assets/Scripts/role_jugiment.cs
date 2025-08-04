@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEditor.Build.Content;
 using System.Linq;
 
 public class Role_jugiment : MonoBehaviour
