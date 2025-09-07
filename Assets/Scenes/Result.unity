@@ -864,8 +864,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 987397013}
-        m_TargetAssemblyTypeName: Go_Main, Assembly-CSharp
-        m_MethodName: Tap
+        m_TargetAssemblyTypeName: result, Assembly-CSharp
+        m_MethodName: Reset
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -922,7 +922,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 987397008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35ac01e8e27aaed4cb80af884c14becb, type: 3}
+  m_Script: {fileID: 11500000, guid: 460d4d42bd2e4dc41bb119c87713dd41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1019858973

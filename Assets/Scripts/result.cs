@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class Result : MonoBehaviour
+public class result : MonoBehaviour
 {
     //public GameObject Dice_Systems;
     //public Role_jugiment RJ;
@@ -12,10 +13,9 @@ public class Result : MonoBehaviour
         //RJ = gameObject.GetComponent<Role_jugiment>();
     }
 
-    void Update()
+    public void Reset()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
+
             Role_jugiment.Final_score = 0;
             Role_jugiment.DiceTimes_Time = 0;
 
@@ -32,6 +32,6 @@ public class Result : MonoBehaviour
             Role_jugiment.three = 0;
 
             SceneManager.LoadScene("Main");
-        }
+        
     }
 }
