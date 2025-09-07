@@ -12,11 +12,9 @@ public class Go_Main : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void Tap()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
             SceneManager.LoadScene("Main");
-        }
+        
     }
 }
