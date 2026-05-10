@@ -11,7 +11,7 @@ public class Dice_System : MonoBehaviour
     public GameObject dices;
     public Button dice_Button;
     private Role_jugiment role_Jugiment;
-    // Start is called before the first frame update
+    
     void Start()
     {
         role_Jugiment = gameObject.GetComponent<Role_jugiment>();

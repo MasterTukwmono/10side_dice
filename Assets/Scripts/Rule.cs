@@ -30,23 +30,23 @@ public class Rule : MonoBehaviour
 
     void Update()
     {
-    if (Input.GetKeyDown(KeyCode.Space))
-    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
             Debug.Log("あああ");
-        if (state == 1)
-            {
-                text1.SetActive(false);
-                text2.SetActive(true);
-                state = 2;
-            }
+            if (state == 1)
+                {
+                    text1.SetActive(false);
+                    text2.SetActive(true);
+                    state = 2;
+                }
             else if (state == 2)
-            {
-                text2.SetActive(false);
-                backgroundImage.SetActive(false);
-                showButton.SetActive(true);
-                state = 0;
-            }
-    }
+                {
+                    text2.SetActive(false);
+                    backgroundImage.SetActive(false);
+                    showButton.SetActive(true);
+                    state = 0;
+                }
+        }
 
     }
 }
